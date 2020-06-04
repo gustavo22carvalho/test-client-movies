@@ -1,4 +1,4 @@
-package com.ibm.testclientmovies.HackerRank;
+package com.ibm.testclientmovies.hackerrank;
 
 import java.util.List;
 

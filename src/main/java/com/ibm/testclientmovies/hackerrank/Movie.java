@@ -1,4 +1,4 @@
-package com.ibm.testclientmovies.HackerRank;
+package com.ibm.testclientmovies.hackerrank;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -7,7 +7,14 @@ public class Movie {
     @JsonProperty("Title")
     String title;
 
-    public String getTitle() {
+    public Movie() {
+    }
+
+    public Movie(String title) {
+		this.title = title;
+	}
+
+	public String getTitle() {
         return title;
     }
 

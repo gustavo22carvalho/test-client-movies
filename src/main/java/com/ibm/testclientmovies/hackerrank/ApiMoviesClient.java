@@ -1,4 +1,4 @@
-package com.ibm.testclientmovies.HackerRank;
+package com.ibm.testclientmovies.hackerrank;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
